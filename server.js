@@ -23,7 +23,7 @@ app.get ("/", (req, res)=>{
 })
 console.log("marco");
 app.post("/files",upload.single("avatar") ,(req,res)=>{
-    res.send("todo bien");
+    res.send("Simulacion de actualizacion de la tabla de la base de datos, pero por tiempo no se puedo conectar a BD de MYSQL en AWS... Agradezco su tiempo");
 })
 
 app.listen(8080,()=> console.log("server started"));
