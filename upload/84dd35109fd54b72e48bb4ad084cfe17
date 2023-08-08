@@ -1,0 +1,3 @@
+const saludar = require("./saludar.js");
+
+console.log(saludar.saludar("marco"));
